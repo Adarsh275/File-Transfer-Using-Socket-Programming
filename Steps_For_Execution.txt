@@ -1,0 +1,55 @@
+										STEPS FOR EXECUTION OF THIS PROJECT ARE GIVEN BELOW
+
+
+METHORD I:
+
+Step1: install all the dependencies to global level from requirements file
+command: pip install -r requirements.txt
+
+Step 2: To run Server 
+command: python server.py
+
+Step 3: To run Client 
+command: python client.py			// (client will ask Ip address of the server which you will get after running the server file)
+
+
+
+METHORD II: (running in virtual environment)
+
+Step1: To install virtual environment
+command: pip install virtualenv
+
+Step2: Creating a virtual environment in that folder (present working directory)
+syntax: python -m virtualenv <name of the environment>			//(The name can be anything you want)	eg: test
+command: python -m virtualenv test
+
+Step3: For running the virtual environment; if you have run the command above command as 
+Syntax: ./<file_name>/Scripts/activate
+Command: ./test/Scripts/activate			// to activate the virtualenv
+
+Step4: Whatever you install now will be loaded to this environment folder
+command: pip install -r requirements.txt			//To install the dependencies
+
+Step 5: To run Server 
+command: python server.py
+
+Step 6: To run Client 
+command: python client.py			// (client will ask Ip address of the server which you will get after running the server file)
+	
+	
+	
+												GENERAL POINT FOR THIS PROJECT ARE
+
+
+(1)	before running make sure to create a file named as "server_files".
+
+(2)	put some (image, text, video file "not too big otherwise it will take more time too load depending on network connection" ) to show list of content in client side when you connect to server.
+
+(3)	If file not present then Server will ask you write some comment which will be stored on "server_files" folder in test format.
+	I have included a screenshot of this case in case you need. 
+
+(4)	In method II you are creating a virtual environment to run your project; so whatever you install all will be installed in the PWD (present working directory)
+	don't for get to activate your virtual environment each time when you run your program.  
+	./test/Scripts/activate
+ 
+
